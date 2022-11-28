@@ -72,23 +72,23 @@ namespace AdvancedStatusMonitor
             this.lblGPUStatus1 = new System.Windows.Forms.Label();
             this.iconGPU = new System.Windows.Forms.PictureBox();
             this.iconGPUTemp = new System.Windows.Forms.PictureBox();
-            this.pbGPUUsage = new System.Windows.Forms.ProgressBar();
             this.pbGPUTemp = new System.Windows.Forms.ProgressBar();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.lblRAMStatus1 = new System.Windows.Forms.Label();
             this.iconRAM = new System.Windows.Forms.PictureBox();
             this.iconRAMTemp = new System.Windows.Forms.PictureBox();
-            this.pbRAMUsage = new System.Windows.Forms.ProgressBar();
             this.pbRAMTemp = new System.Windows.Forms.ProgressBar();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.iconCPU = new System.Windows.Forms.PictureBox();
             this.lblCPUStatus1 = new System.Windows.Forms.Label();
             this.iconCPUTemp = new System.Windows.Forms.PictureBox();
-            this.pbCPUUsage = new System.Windows.Forms.ProgressBar();
             this.pbCPUTemp = new System.Windows.Forms.ProgressBar();
             this.perfCounterCPU = new System.Diagnostics.PerformanceCounter();
             this.perfCounterRAM = new System.Diagnostics.PerformanceCounter();
             this.timerMain = new System.Windows.Forms.Timer(this.components);
+            this.pbGPUUsage = new System.Windows.Forms.ProgressBar();
+            this.pbRAMUsage = new System.Windows.Forms.ProgressBar();
+            this.pbCPUUsage = new System.Windows.Forms.ProgressBar();
             this.perfCounterGPU = new System.Diagnostics.PerformanceCounter();
             this.statusStrip.SuspendLayout();
             this.menuStrip.SuspendLayout();
@@ -430,13 +430,6 @@ namespace AdvancedStatusMonitor
             this.iconGPUTemp.Name = "iconGPUTemp";
             this.iconGPUTemp.TabStop = false;
             // 
-            // pbGPUUsage
-            // 
-            this.pbGPUUsage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(38)))), ((int)(((byte)(43)))));
-            resources.ApplyResources(this.pbGPUUsage, "pbGPUUsage");
-            this.pbGPUUsage.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.pbGPUUsage.Name = "pbGPUUsage";
-            // 
             // pbGPUTemp
             // 
             this.pbGPUTemp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(38)))), ((int)(((byte)(43)))));
@@ -472,13 +465,6 @@ namespace AdvancedStatusMonitor
             resources.ApplyResources(this.iconRAMTemp, "iconRAMTemp");
             this.iconRAMTemp.Name = "iconRAMTemp";
             this.iconRAMTemp.TabStop = false;
-            // 
-            // pbRAMUsage
-            // 
-            this.pbRAMUsage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(38)))), ((int)(((byte)(43)))));
-            resources.ApplyResources(this.pbRAMUsage, "pbRAMUsage");
-            this.pbRAMUsage.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.pbRAMUsage.Name = "pbRAMUsage";
             // 
             // pbRAMTemp
             // 
@@ -516,13 +502,6 @@ namespace AdvancedStatusMonitor
             this.iconCPUTemp.Name = "iconCPUTemp";
             this.iconCPUTemp.TabStop = false;
             // 
-            // pbCPUUsage
-            // 
-            this.pbCPUUsage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(38)))), ((int)(((byte)(43)))));
-            resources.ApplyResources(this.pbCPUUsage, "pbCPUUsage");
-            this.pbCPUUsage.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.pbCPUUsage.Name = "pbCPUUsage";
-            // 
             // pbCPUTemp
             // 
             this.pbCPUTemp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(38)))), ((int)(((byte)(43)))));
@@ -539,6 +518,27 @@ namespace AdvancedStatusMonitor
             // 
             this.perfCounterRAM.CategoryName = "Memory";
             this.perfCounterRAM.CounterName = "Available MBytes";
+            // 
+            // pbGPUUsage
+            // 
+            this.pbGPUUsage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(38)))), ((int)(((byte)(43)))));
+            resources.ApplyResources(this.pbGPUUsage, "pbGPUUsage");
+            this.pbGPUUsage.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.pbGPUUsage.Name = "pbGPUUsage";
+            // 
+            // pbRAMUsage
+            // 
+            this.pbRAMUsage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(38)))), ((int)(((byte)(43)))));
+            resources.ApplyResources(this.pbRAMUsage, "pbRAMUsage");
+            this.pbRAMUsage.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.pbRAMUsage.Name = "pbRAMUsage";
+            // 
+            // pbCPUUsage
+            // 
+            this.pbCPUUsage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(38)))), ((int)(((byte)(43)))));
+            resources.ApplyResources(this.pbCPUUsage, "pbCPUUsage");
+            this.pbCPUUsage.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.pbCPUUsage.Name = "pbCPUUsage";
             // 
             // perfCounterGPU
             // 
