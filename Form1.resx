@@ -219,22 +219,22 @@
     <value>Arial Unicode MS, 9pt</value>
   </data>
   <data name="MenuStrip_App_Preferences.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 26</value>
+    <value>218, 26</value>
   </data>
   <data name="MenuStrip_App_Preferences.Text" xml:space="preserve">
     <value>Preferences</value>
   </data>
   <data name="MenuStrip_App_Separator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 6</value>
+    <value>215, 6</value>
   </data>
   <data name="MenuStrip_App_ProgramRestart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 26</value>
+    <value>218, 26</value>
   </data>
   <data name="MenuStrip_App_ProgramRestart.Text" xml:space="preserve">
     <value>Program Restart</value>
   </data>
   <data name="MenuStrip_App_ProgramShutdown.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 26</value>
+    <value>218, 26</value>
   </data>
   <data name="MenuStrip_App_ProgramShutdown.Text" xml:space="preserve">
     <value>Program Shutdown</value>
@@ -837,7 +837,7 @@ is not implemented yet.</value>
     <value>38, 0</value>
   </data>
   <data name="lblGPUStatus1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 38</value>
+    <value>86, 38</value>
   </data>
   <data name="lblGPUStatus1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -892,7 +892,7 @@ Usage</value>
     <value>NoControl</value>
   </data>
   <data name="iconGPUTemp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>298, 3</value>
+    <value>297, 3</value>
   </data>
   <data name="iconGPUTemp.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 32</value>
@@ -922,7 +922,7 @@ Usage</value>
     <value>NoControl</value>
   </data>
   <data name="pbGPUUsage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 3</value>
+    <value>130, 3</value>
   </data>
   <data name="pbGPUUsage.Size" type="System.Drawing.Size, System.Drawing">
     <value>161, 32</value>
@@ -949,10 +949,10 @@ Usage</value>
     <value>NoControl</value>
   </data>
   <data name="pbGPUTemp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>336, 3</value>
+    <value>335, 3</value>
   </data>
   <data name="pbGPUTemp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 32</value>
+    <value>172, 32</value>
   </data>
   <data name="pbGPUTemp.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -997,7 +997,7 @@ Usage</value>
     <value>0</value>
   </data>
   <data name="tableLayoutPanel6.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblGPUStatus1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="iconGPU" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="iconGPUTemp" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="pbGPUUsage" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pbGPUTemp" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,27.65957,Percent,72.34042,Absolute,167,Absolute,38,Absolute,176" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblGPUStatus1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="iconGPU" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="iconGPUTemp" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="pbGPUUsage" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pbGPUTemp" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,27.65957,Percent,72.34042,Absolute,167,Absolute,38,Absolute,177" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tableLayoutPanel5.ColumnCount" type="System.Int32, mscorlib">
     <value>5</value>
@@ -1015,7 +1015,7 @@ Usage</value>
     <value>38, 0</value>
   </data>
   <data name="lblRAMStatus1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 38</value>
+    <value>86, 38</value>
   </data>
   <data name="lblRAMStatus1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1070,7 +1070,7 @@ Usage</value>
     <value>NoControl</value>
   </data>
   <data name="iconRAMTemp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>298, 3</value>
+    <value>297, 3</value>
   </data>
   <data name="iconRAMTemp.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 32</value>
@@ -1100,7 +1100,7 @@ Usage</value>
     <value>NoControl</value>
   </data>
   <data name="pbRAMUsage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 3</value>
+    <value>130, 3</value>
   </data>
   <data name="pbRAMUsage.Size" type="System.Drawing.Size, System.Drawing">
     <value>161, 32</value>
@@ -1127,10 +1127,10 @@ Usage</value>
     <value>NoControl</value>
   </data>
   <data name="pbRAMTemp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>336, 3</value>
+    <value>335, 3</value>
   </data>
   <data name="pbRAMTemp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 32</value>
+    <value>172, 32</value>
   </data>
   <data name="pbRAMTemp.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -1175,7 +1175,7 @@ Usage</value>
     <value>1</value>
   </data>
   <data name="tableLayoutPanel5.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblRAMStatus1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="iconRAM" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="iconRAMTemp" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="pbRAMUsage" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pbRAMTemp" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,27.65957,Percent,72.34042,Absolute,167,Absolute,38,Absolute,176" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblRAMStatus1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="iconRAM" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="iconRAMTemp" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="pbRAMUsage" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pbRAMTemp" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,27.65957,Percent,72.34042,Absolute,167,Absolute,38,Absolute,177" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tableLayoutPanel4.ColumnCount" type="System.Int32, mscorlib">
     <value>5</value>
@@ -1187,7 +1187,7 @@ Usage</value>
     <value>3, 3</value>
   </data>
   <data name="iconCPU.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 32</value>
+    <value>28, 32</value>
   </data>
   <data name="iconCPU.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -1217,7 +1217,7 @@ Usage</value>
     <value>NoControl</value>
   </data>
   <data name="lblCPUStatus1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>38, 0</value>
+    <value>37, 0</value>
   </data>
   <data name="lblCPUStatus1.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 38</value>
@@ -1248,7 +1248,7 @@ Usage</value>
     <value>NoControl</value>
   </data>
   <data name="iconCPUTemp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>298, 3</value>
+    <value>297, 3</value>
   </data>
   <data name="iconCPUTemp.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 32</value>
@@ -1278,7 +1278,7 @@ Usage</value>
     <value>NoControl</value>
   </data>
   <data name="pbCPUUsage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 3</value>
+    <value>130, 3</value>
   </data>
   <data name="pbCPUUsage.Size" type="System.Drawing.Size, System.Drawing">
     <value>161, 32</value>
@@ -1305,10 +1305,10 @@ Usage</value>
     <value>NoControl</value>
   </data>
   <data name="pbCPUTemp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>336, 3</value>
+    <value>335, 3</value>
   </data>
   <data name="pbCPUTemp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 32</value>
+    <value>172, 32</value>
   </data>
   <data name="pbCPUTemp.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1353,7 +1353,7 @@ Usage</value>
     <value>2</value>
   </data>
   <data name="tableLayoutPanel4.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="iconCPU" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblCPUStatus1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="iconCPUTemp" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="pbCPUUsage" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pbCPUTemp" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,27.14286,Percent,72.85714,Absolute,167,Absolute,38,Absolute,176" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="iconCPU" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblCPUStatus1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="iconCPUTemp" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="pbCPUUsage" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pbCPUTemp" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,27.14286,Percent,72.85714,Absolute,167,Absolute,38,Absolute,177" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tableLayoutPanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
