@@ -1,0 +1,7 @@
+# Project File
+*.sln
+*.csproj
+.vs/
+
+# Debug
+bin/
